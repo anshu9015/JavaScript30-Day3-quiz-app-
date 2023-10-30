@@ -9,20 +9,20 @@ const questions = [
         ]
     },
     {
-        question: "Which is largest animal in the world?",
+        question: "What is the closet planet to the Sun?",
         answers: [
-            {text: "Shark", correct: false},
-            {text: "Blue whale", correct: true},
-            {text: "Elephant", correct:false},
-            {text: "Giraffe", correct: false},
+            {text: "Mercury", correct: true},
+            {text: "Uranus", correct: false},
+            {text: "Neptune", correct:false},
+            {text: "Earth", correct: false},
         ]
     },
     {
-        question: "Which is largest animal in the world?",
+        question: "Which animal lays the largest egg?",
         answers: [
-            {text: "Shark", correct: false},
-            {text: "Blue whale", correct: true},
-            {text: "Elephant", correct:false},
+            {text: "Hen", correct: false},
+            {text: "Snake", correct: false},
+            {text: "Ostrich", correct:true},
             {text: "Giraffe", correct: false},
         ]
     },
