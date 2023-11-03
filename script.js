@@ -1,4 +1,33 @@
 const questions = [
+    // {
+    //     "question": "What is the capital of France?",
+    //     "options": ["New York", "London", "Paris", "Dublin"],
+    //     "answer": "Paris"
+    //   },
+    //   {
+    //     "question": "Who painted the Mona Lisa?",
+    //     "options": ["Vincent Van Gogh", "Pablo Picasso", "Leonardo Da Vinci", "Claude Monet"],
+    //     "answer": "Leonardo Da Vinci"
+    //   }
+    {
+        question: "What is the capital of France?",
+        answers: [
+            {text: "New York", correct: false},
+            {text: "London", correct: false},
+            {text: "Paris", correct:true},
+            {text: "Dublin", correct: false},
+        ]
+    },
+    {
+        question: "Who painted the Mona Lisa?",
+        answers: [
+            {text: "Vincent Van Gogh", correct: false},
+            {text: "Pablo Picasso", correct: false},
+            {text: "Leonardo Da Vinci", correct:true},
+            {text: "Claude Monet", correct: false},
+        ]
+    }, 
+    
     {
         question: "Which is largest animal in the world?",
         answers: [
